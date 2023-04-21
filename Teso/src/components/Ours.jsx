@@ -25,7 +25,7 @@ const Ours = () => {
     <section className='section' id='service'>
         
             <div className='container mx-auto'>
-                <div className='flex flex-col lg:flex-row gap-11'>
+                <div className='flex flex-col lg:flex-row gap-16'>
 
             
     <div className='flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12'>
@@ -45,7 +45,7 @@ const Ours = () => {
             ours.map((ours, index)=>{
                 const {name, description, link}= ours;
                 return(
-                    <div className='border-b border-white/20 h-[146px] mb[38px] flex' key={index}>
+                    <div className='border-b border-white/20 h-[146px] mb[38px] flex ' key={index}>
                     <div className='max-w-[476px]'>
                         <h4 className='text-[20px] tracking-wider font-Poppins font-semibold mb-6'>{name}</h4 >
                         <p className='font-secondary leading-tight'>{description}</p>
